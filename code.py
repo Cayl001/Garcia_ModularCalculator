@@ -8,9 +8,10 @@ def multiplication(a, b):
   return a * b
 
 def division(a, b)
-  return b==0:             
+ if b==0:      
     return "Error: Cannot divide by zero."
-  return a / b
+  else:
+    return a / b
 
 print("===== MODULAR CALCULATOR =====")
 print("1. Addition (+)")
